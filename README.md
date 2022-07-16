@@ -9,7 +9,8 @@ Simple diagrams and resources to help learning Elixir, Phoenix, Ecto and other u
     - [What is functional programming?](#what-is-functional-programming)
     - [Global learning and “veille” resources](#global-learning-and-veille-resources)
     - [Why going for Elixir ?](#why-going-for-elixir-)
-- [Level 1 (Elixir)](#level-1-elixir)
+- [Elixir learning path](#elixir-learning-path)
+  - [Level 1 (Elixir)](#level-1-elixir)
     - [Installing Elixir and Running IEx](#installing-elixir-and-running-iex)
     - [Elixir guide styles (non exhaustive)](#elixir-guide-styles-non-exhaustive)
     - [Basics (Getting started with Elixir)](#basics-getting-started-with-elixir)
@@ -22,12 +23,18 @@ Simple diagrams and resources to help learning Elixir, Phoenix, Ecto and other u
     - [Controls Structures (cond, with, case, if)](#controls-structures-cond-with-case-if)
     - [IO and files](#io-and-files)
     - [Debugging with Elixir](#debugging-with-elixir)
-- [Level II (Phoenix, Ecto and OTP basics)](#level-ii-phoenix-ecto-and-otp-basics)
+  - [Level 2 (Phoenix, Ecto and OTP basics)](#level-2-phoenix-ecto-and-otp-basics)
     - [Mix](#mix)
     - [Errors and Exceptions](#errors-and-exceptions)
     - [Testing your code](#testing-your-code)
     - [Configuration and releases](#configuration-and-releases)
-- [Level III (OTP, MetaProgramming)](#level-iii-otp-metaprogramming)
+    - [Erlang with Elixir](#erlang-with-elixir)
+    - [OTP Basics](#otp-basics)
+    - [Phoenix](#phoenix)
+    - [Ecto](#ecto)
+  - [Level 3 (OTP, MetaProgramming)](#level-3-otp-metaprogramming)
+    - [🚧 WIP](#-wip)
+- [📚 Books](#-books)
 
 # 🗨️ Intro
 
@@ -37,6 +44,8 @@ Simple diagrams and resources to help learning Elixir, Phoenix, Ecto and other u
 This document can help guiding you through Elixir and give you directions what to learn next.
 This is not the only way to learn Elixir and should not be considered like a course. The goal here is just to give some tips and resources for each concepts we believe are important.
 Each levels represent knowledge that are usefull for Elixir Developers, but Espacially for Web Developer. A lot might be missing, feel free to contributes with your own resources, path, etc.
+
+Resources are not always matching their diagrams. It is because diagrams are meant to have a visual reprensation of the "leveling" and resources will often match multiple step of a diagram.
 
 ### Contributions
 
@@ -56,19 +65,21 @@ Anyone can contributes, add resources, links and update mermaid diagrams :) Feel
 
 ### Global learning and “veille” resources
 
-- [https://elixir-lang.org/docs.html](https://elixir-lang.org/docs.html)
-- [https://elixirschool.com/en](https://elixirschool.com/en)
-- [https://exercism.org/tracks/elixir/concepts](https://exercism.org/tracks/elixir/concepts)
-- [https://thinkingelixir.com/](https://thinkingelixir.com/)
-- [https://github.com/h4cc/awesome-elixir](https://github.com/h4cc/awesome-elixir)
-- [https://www.youtube.com/c/ElixirConf](https://www.youtube.com/c/ElixirConf)
-- [https://blog.appsignal.com/](https://blog.appsignal.com/)
+- [Official Elixir documentation](https://elixir-lang.org/docs.html)
+- [ElixirSchool](https://elixirschool.com/en)
+- [Exercism's Elixir track](https://exercism.org/tracks/elixir/concepts)
+- [ThinkingElixir podcast](https://thinkingelixir.com/)
+- [Awesome Elixir](https://github.com/h4cc/awesome-elixir)
+- [ElixirConf youtube channel](https://www.youtube.com/c/ElixirConf)
+- [Wttj tech medium page](https://medium.com/wttj-tech)
+- [AppSignal's blog](https://blog.appsignal.com/)
 
 ### Why going for Elixir ?
 
 - ****[The Soul of Erlang and Elixir • Saša Jurić • GOTO 2019](https://www.youtube.com/watch?v=JvBT4XBdoUE)**** (42min)
 
-# Level 1 (Elixir)
+# Elixir learning path
+## Level 1 (Elixir)
 
 → During this level you can practice using the [Exercism’s Elixir track](https://exercism.org/tracks/elixir). They have puzzles and exercises for every Elixir concepts. And their [Sylabus](https://exercism.org/tracks/elixir/concepts) is great!
 
@@ -179,7 +190,7 @@ Stream --> Files[Files]
 
 - [https://blog.appsignal.com/2021/11/30/three-ways-to-debug-code-in-elixir.html](https://blog.appsignal.com/2021/11/30/three-ways-to-debug-code-in-elixir.html)
 
-# Level II (Phoenix, Ecto and OTP basics)
+## Level 2 (Phoenix, Ecto and OTP basics)
 
 ```mermaid
 graph TD
@@ -251,7 +262,34 @@ graph TD
 
 - [https://elixir-lang.org/getting-started/mix-otp/config-and-releases.html](https://elixir-lang.org/getting-started/mix-otp/config-and-releases.html)
 
-# Level III (OTP, MetaProgramming)
+### Erlang with Elixir
+  - [Erlang Interoperability](https://elixirschool.com/en/lessons/intermediate/erlang)
+
+### OTP Basics
+
+ - [Intro to OTP with Elixir](https://www.youtube.com/watch?v=CJT8wPnmjTM) (Video)
+ - [A brief guide to OTP in Elixir](https://serokell.io/blog/elixir-otp-guide)
+
+### Phoenix
+
+| => [Phoenix's official repository](https://github.com/phoenixframework/phoenix)
+
+ - [Phoenix documentation](https://hexdocs.pm/phoenix/Phoenix.html)
+ - [Anatomy of a Phoenix App](https://www.fullstacklabs.co/blog/anatomy-of-a-phoenix-app)
+ - [Creating a chat App - ElixirBridge](https://elixirbridge.org/03_Intro_to_Phoenix/01-creating-a-chat-app.html) (Tutorial)
+ - [Phoenix a Web Framework for the New Web](https://www.youtube.com/watch?v=bk3icU8iIto&t=2605s) (Video)
+  
+### Ecto
+
+| => [Ecto's official repository](https://github.com/elixir-ecto/ecto)
+
+
+- [Ecto documentation](https://hexdocs.pm/ecto/Ecto.html)
+- [Ecto: An Introduction to Elixir's Database Toolkit](https://serokell.io/blog/ecto-guide-for-beginners)
+- ["Lessons: Ecto" from Elixir School](https://elixirschool.com/en/lessons/ecto)
+
+
+## Level 3 (OTP, MetaProgramming)
 
 ```mermaid
 graph TD
@@ -279,3 +317,16 @@ graph TD
     Behaviours --> MetaProgramming
     Behaviours --> Mox
 ```
+
+### 🚧 WIP
+
+
+
+# 📚 Books
+
+- [Elixir in Action by Saša Jurić](https://www.manning.com/books/elixir-in-action-second-edition)
+- [Designing Elixir Systems with OTP](https://pragprog.com/titles/jgotp/designing-elixir-systems-with-otp/)
+- [Testing Elixir](https://pragprog.com/titles/lmelixir/testing-elixir/)
+- [Metaprogramming Elixir](https://pragprog.com/titles/cmelixir/metaprogramming-elixir/)
+- [Phoenix in Action](https://www.manning.com/books/phoenix-in-action)
+- [Programming Phoenix 1.4](https://pragprog.com/titles/phoenix14/programming-phoenix-1-4/)
