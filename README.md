@@ -142,3 +142,75 @@ Stream --> Files[Files]
 ### Debugging with Elixir
 
 - [https://blog.appsignal.com/2021/11/30/three-ways-to-debug-code-in-elixir.html](https://blog.appsignal.com/2021/11/30/three-ways-to-debug-code-in-elixir.html)
+
+# Level II (Phoenix, Ecto and OTP basics)
+
+```mermaid
+graph TD
+    Mix[Mix]
+    Errors[Errors and Exceptions]
+    Erlang[Erlang and Elixir]
+    OTP[OTP Basic comprehension]
+    BasicCommands[Basic commands - New, Deps,etc.]
+    ExUnit[ExUnit and testing]
+    Compilation[Compilation and Releases]
+    Phoenix[Phoenix basics - Application architecture]
+    Plug[Plug and Conn]
+    Router[Router]
+    Controllers[Controllers]
+    Views[Views]
+    Contexts[Contexts]
+    Ecto[Ecto basics - Schema, Fields type etc.]
+    RepoConfig[Ecto Configuration]
+    Migrations[Migrations]
+    Schemas[Schemas - Relations, Embeded, Types]
+    EctoQuery[Ecto.Query]
+    EctoTransaction[Ecto Transactions]
+    Multi[Multi]
+    Fragments[Fragments]
+    Dynamic[Dynamic]
+    Mix --> BasicCommands
+    Errors --> OTP
+    Erlang --> OTP
+    BasicCommands --> ExUnit
+    BasicCommands --> Compilation
+    BasicCommands --> Phoenix
+    OTP --> Phoenix
+    Compilation --> Phoenix
+    Phoenix --> Ecto
+    Phoenix --> Plug
+    Phoenix --> Router
+    Router --> Controllers
+    Plug --> Controllers
+    Controllers --> Views
+    Contexts --> Controllers
+    Ecto --> RepoConfig
+    Ecto --> Migrations
+    Migrations --> Schemas
+    Schemas --> Contexts
+    Schemas --> EctoQuery
+    EctoQuery --> Multi
+    EctoQuery --> Fragments
+    EctoQuery --> Dynamic
+    EctoQuery --> EctoTransaction
+```
+
+### Mix
+
+- [https://elixirschool.com/en/lessons/basics/mix](https://elixirschool.com/en/lessons/basics/mix)
+- [https://elixir-lang.org/getting-started/mix-otp/introduction-to-mix.html](https://elixir-lang.org/getting-started/mix-otp/introduction-to-mix.html)
+
+### Errors and Exceptions
+
+- [https://elixir-lang.org/getting-started/try-catch-and-rescue.html](https://elixir-lang.org/getting-started/try-catch-and-rescue.html)
+- [https://elixirschool.com/en/lessons/intermediate/error_handling](https://elixirschool.com/en/lessons/intermediate/error_handling)
+
+### Testing your code
+
+- [https://hexdocs.pm/ex_unit/1.13/ExUnit.html](https://hexdocs.pm/ex_unit/1.13/ExUnit.html)
+- [https://semaphoreci.com/community/tutorials/introduction-to-testing-elixir-applications-with-exunit](https://semaphoreci.com/community/tutorials/introduction-to-testing-elixir-applications-with-exunit)
+- [https://elixirschool.com/en/lessons/testing/basics](https://elixirschool.com/en/lessons/testing/basics)
+
+### Configuration and releases
+
+- [https://elixir-lang.org/getting-started/mix-otp/config-and-releases.html](https://elixir-lang.org/getting-started/mix-otp/config-and-releases.html)
