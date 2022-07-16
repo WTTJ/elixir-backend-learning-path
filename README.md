@@ -19,7 +19,7 @@ Simple diagrams and resources to help learning Elixir, Phoenix, Ecto and other u
 
 This document can help guiding you through Elixir and give you directions what to learn next.
 This is not the only way to learn Elixir and should not be considered like a course. The goal here is just to give some tips and resources for each concepts we believe are important.
-Each levels represent knowledge that we are using a lot @ wttj, but there is a lot of thing missing like important librairies (Guardian for example).
+Each levels represent knowledge that are usefull for Elixir Developers, but Espacially for Web Developer. A lot might be missing, feel free to contributes with your own resources, path, etc.
 
 # 📖 Global Resources
 
