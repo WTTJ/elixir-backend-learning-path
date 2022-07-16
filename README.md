@@ -34,6 +34,7 @@ Simple diagrams and resources to help learning Elixir, Phoenix, Ecto and other u
     - [Ecto](#ecto)
   - [Level 3 (OTP, MetaProgramming)](#level-3-otp-metaprogramming)
     - [🚧 WIP](#-wip)
+    - [AST](#ast)
 - [📚 Books](#-books)
 
 # 🗨️ Intro
@@ -46,6 +47,8 @@ This is not the only way to learn Elixir and should not be considered like a cou
 Each levels represent knowledge that are usefull for Elixir Developers, but Espacially for Web Developer. A lot might be missing, feel free to contributes with your own resources, path, etc.
 
 Resources are not always matching their diagrams. It is because diagrams are meant to have a visual reprensation of the "leveling" and resources will often match multiple step of a diagram.
+
+Some of the concepts are abitrarly put at a higher level (because of their complexity) but might not really belongs there. For example AST is core to Elixir and might be important to check early, but due to its complexity is delay to level 3.
 
 ### Contributions
 
@@ -110,6 +113,7 @@ ListTuplesMaps --> EnumModule[Enum Module]
 AnonymousFunctions --> EnumModule
 EnumModule --> Stream[Stream]
 Stream --> Files[Files]
+Doc[Documentation and Typespecs]
 ```
 
 ### Installing Elixir and Running IEx
@@ -276,6 +280,7 @@ graph TD
 
  - [Phoenix documentation](https://hexdocs.pm/phoenix/Phoenix.html)
  - [Anatomy of a Phoenix App](https://www.fullstacklabs.co/blog/anatomy-of-a-phoenix-app)
+ - [Phoenix Contexts](https://hexdocs.pm/phoenix/contexts.html)
  - [Creating a chat App - ElixirBridge](https://elixirbridge.org/03_Intro_to_Phoenix/01-creating-a-chat-app.html) (Tutorial)
  - [Phoenix a Web Framework for the New Web](https://www.youtube.com/watch?v=bk3icU8iIto&t=2605s) (Video)
   
@@ -298,6 +303,7 @@ graph TD
     Genserver[GenServer]
     Agent[Agent]
     Erlang[Erlang integrations]
+    Telemetry[Telemetry]
     ETS[ETS]
     Mnesia[Mnesia]
     Macro[Macro and use]
@@ -305,13 +311,16 @@ graph TD
     Behaviours[Behaviours]
     Mox[Mox and Hammox - testing]
     MetaProgramming[Meta Programming]
+    AST[Abrasct Syntax Tree - AST]
     Processes --> Supervisors
     Supervisors --> Genserver
     Supervisors --> Agent
     Erlang --> ETS
     Erlang --> Mnesia
+    Erlang --> Telemetry
     Processes --> ETS
     Processes --> Mnesia
+    AST --> Macro
     Macro --> MetaProgramming
     Protocols --> MetaProgramming
     Behaviours --> MetaProgramming
@@ -319,6 +328,11 @@ graph TD
 ```
 
 ### 🚧 WIP
+
+### AST
+
+- [A Deep dive into the Elixir AST](https://dorgan.netlify.app/posts/2021/04/the_elixir_ast/)
+- [The Elixir AST explained using the AST Ninja](https://www.botsquad.com/2019/04/11/the-ast-explained/)
 
 
 
