@@ -214,3 +214,32 @@ graph TD
 ### Configuration and releases
 
 - [https://elixir-lang.org/getting-started/mix-otp/config-and-releases.html](https://elixir-lang.org/getting-started/mix-otp/config-and-releases.html)
+
+# Level III (OTP, MetaProgramming)
+
+```mermaid
+graph TD
+    Processes[Processes - Spawn, Send, Receive]
+    Supervisors[Supervisors]
+    Genserver[GenServer]
+    Agent[Agent]
+    Erlang[Erlang integrations]
+    ETS[ETS]
+    Mnesia[Mnesia]
+    Macro[Macro and use]
+    Protocols[Protocols]
+    Behaviours[Behaviours]
+    Mox[Mox and Hammox - testing]
+    MetaProgramming[Meta Programming]
+    Processes --> Supervisors
+    Supervisors --> Genserver
+    Supervisors --> Agent
+    Erlang --> ETS
+    Erlang --> Mnesia
+    Processes --> ETS
+    Processes --> Mnesia
+    Macro --> MetaProgramming
+    Protocols --> MetaProgramming
+    Behaviours --> MetaProgramming
+    Behaviours --> Mox
+```
