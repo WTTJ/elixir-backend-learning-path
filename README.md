@@ -1,4 +1,19 @@
+
+Simple diagrams and resources to help learning Elixir, Phoenix, Ecto and other useful stuff for Web Developers.
+
+* [Intro](#-intro)
+    * [What to expect](#-what-to-expect)
+* [Global Resources](#-global-resources)
+    * [What is Elixir ?](#-what-is-elixir-)
+    * [What is Functional programming ?](#what-is-functional-programming)
+    * [Global learning and "veille" resources](#global-learning-and-veille-resources)
+    * [Why going for Elixir ?](#why-going-for-elixir-)
+* [Level 1 (Elixir)](#level-1-elixir)
+* [Level 2 (Phoenix, Ecto and OTP basics)](#level-ii-phoenix-ecto-and-otp-basics)
+* [Level 3 (OTP and metaprogramming)](#level-iii-otp-metaprogramming)
+
 # 🗨️ Intro
+
 
 ### ❔ What to expect
 
