@@ -6,11 +6,6 @@ This document can help guiding you through Elixir and give you directions what t
 This is not the only way to learn Elixir and should not be considered like a course. The goal here is just to give some tips and resources for each concepts we believe are important.
 Each levels represent knowledge that we are using a lot @ wttj, but there is a lot of thing missing like important librairies (Guardian for example).
 
-### 🏗️ Contributions
-
-Anyone can edit this document and add resources, edit stuff etc. 
-The link to the Excalidraw diagram is **[here](https://excalidraw.com/#json=V2ExyX8JONjrqABM7u0LR,BfmGcthq77_vY34A8KdiYg)** feel free to update it *(please do update the shareable link if you do so).*
-
 # 📖 Global Resources
 
 ## 🔬 What is Elixir ?
