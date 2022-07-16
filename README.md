@@ -21,6 +21,10 @@ This document can help guiding you through Elixir and give you directions what t
 This is not the only way to learn Elixir and should not be considered like a course. The goal here is just to give some tips and resources for each concepts we believe are important.
 Each levels represent knowledge that are usefull for Elixir Developers, but Espacially for Web Developer. A lot might be missing, feel free to contributes with your own resources, path, etc.
 
+### Contributions
+
+Anyone can contributes, add resources, links and update mermaid diagrams :) Feel free to open a PR with your updates!
+
 # 📖 Global Resources
 
 ## 🔬 What is Elixir ?
