@@ -292,8 +292,9 @@ graph TD
 - [Ecto documentation](https://hexdocs.pm/ecto/Ecto.html)
 - [Ecto: An Introduction to Elixir's Database Toolkit](https://serokell.io/blog/ecto-guide-for-beginners)
 - ["Lessons: Ecto" from Elixir School](https://elixirschool.com/en/lessons/ecto)
-
-
+- [A brief guide to Ecto.Multi](https://elixirschool.com/blog/ecto-multi/)
+- [Ecto.Multi hexdoc](https://hexdocs.pm/ecto/Ecto.Multi.html)
+- [Dynamic queries](https://hexdocs.pm/ecto/dynamic-queries.html)
 ## Level 3 (OTP, MetaProgramming)
 
 ```mermaid
