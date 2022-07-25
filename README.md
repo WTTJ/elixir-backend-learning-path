@@ -33,7 +33,8 @@ Simple diagrams and resources to help learning Elixir, Phoenix, Ecto and other u
     - [Phoenix](#phoenix)
     - [Ecto](#ecto)
   - [Level 3 (OTP, MetaProgramming)](#level-3-otp-metaprogramming)
-    - [🚧 WIP](#-wip)
+    - [Processes (Spawn, Links, Tasks, etc.)](#processes-spawn-links-tasks-etc)
+    - [Supervisors](#supervisors)
     - [AST](#ast)
 - [📚 Books](#-books)
 
@@ -288,7 +289,6 @@ graph TD
 
 | => [Ecto's official repository](https://github.com/elixir-ecto/ecto)
 
-
 - [Ecto documentation](https://hexdocs.pm/ecto/Ecto.html)
 - [Ecto: An Introduction to Elixir's Database Toolkit](https://serokell.io/blog/ecto-guide-for-beginners)
 - ["Lessons: Ecto" from Elixir School](https://elixirschool.com/en/lessons/ecto)
@@ -297,7 +297,7 @@ graph TD
 - [Dynamic queries](https://hexdocs.pm/ecto/dynamic-queries.html)
 ## Level 3 (OTP, MetaProgramming)
 
-```mermaid
+```mermaid  
 graph TD
     Processes[Processes - Spawn, Send, Receive]
     Supervisors[Supervisors]
@@ -328,7 +328,19 @@ graph TD
     Behaviours --> Mox
 ```
 
-### 🚧 WIP
+### Processes (Spawn, Links, Tasks, etc.)
+
+- [Elixir Processes](https://elixir-lang.org/getting-started/processes.html#:~:text=In%20Elixir%2C%20all%20code%20runs,distributed%20and%20fault%2Dtolerant%20programs.)
+- [Understanding Processes for Elixir Developers](https://www.erlang-solutions.com/blog/understanding-processes-for-elixir-developers/)
+- [Elixir, A Little Beyond The Basics - Part 6: processes](https://www.openmymind.net/Elixir-A-Little-Beyond-The-Basics-Part-6-processes/)
+
+### Supervisors
+
+- [Supervisor and Application](https://elixir-lang.org/getting-started/mix-otp/supervisor-and-application.html)
+- ["OTP Supervisors" from Elixir School](https://elixirschool.com/en/lessons/advanced/otp_supervisors)
+- [Using Supervisors to Organize Your Elixir Application](https://blog.appsignal.com/2021/08/23/using-supervisors-to-organize-your-elixir-application.html)
+- [Elixir, A Little Beyond The Basics - Part 7: supervisors](https://www.openmymind.net/Elixir-A-Little-Beyond-The-Basics-Part-7-supervisors/)
+
 
 ### AST
 
@@ -339,7 +351,7 @@ graph TD
 
 # 📚 Books
 
-- [Elixir in Action by Saša Jurić](https://www.manning.com/books/elixir-in-action-second-edition)
+- [Elixir in Action](https://www.manning.com/books/elixir-in-action-second-edition)
 - [Designing Elixir Systems with OTP](https://pragprog.com/titles/jgotp/designing-elixir-systems-with-otp/)
 - [Testing Elixir](https://pragprog.com/titles/lmelixir/testing-elixir/)
 - [Metaprogramming Elixir](https://pragprog.com/titles/cmelixir/metaprogramming-elixir/)
