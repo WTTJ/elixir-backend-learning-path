@@ -59,13 +59,13 @@ Anyone can contributes, add resources, links and update mermaid diagrams :) Feel
 
 ## 🔬 What is Elixir ?
 
-- [https://www.youtube.com/watch?v=dPRt5pOIFHk](https://www.youtube.com/watch?v=dPRt5pOIFHk) (Jose Valim, creator of Elixir)
-- [https://elixir-lang.org/](https://elixir-lang.org/)
-- [https://serokell.io/blog/introduction-to-elixir](https://serokell.io/blog/introduction-to-elixir)
+- [BEHIND THE CODE: The one who created Elixir](https://www.youtube.com/watch?v=dPRt5pOIFHk) (Jose Valim, creator of Elixir)
+- [Elixir official website](https://elixir-lang.org/)
+- [Introduction to Elixir by Gints Dreimanis](https://serokell.io/blog/introduction-to-elixir)
 
 ### What is functional programming?
 
-- [https://github.com/readme/guides/functional-programming-basics](https://github.com/readme/guides/functional-programming-basics)
+- [Functional Programming 101 by Cassidy Williams](https://github.com/readme/guides/functional-programming-basics)
 
 ### Global learning and “veille” resources
 
@@ -120,80 +120,81 @@ Doc[Documentation and Typespecs]
 ### Installing Elixir and Running IEx
 
 - **asdf (version manager)**:
-    - [asdf](https://asdf-vm.com/)
+    - [Asdf](https://asdf-vm.com/)
     - [Installing Elixir and Erlang With ASDF](https://www.pluralsight.com/guides/installing-elixir-erlang-with-asdf)
     
 - **IEx (elixir console) and compilation**:
-    - [https://elixir-lang.org/getting-started/introduction.html#interactive-mode](https://elixir-lang.org/getting-started/introduction.html#interactive-mode)
-    - [https://elixirschool.com/en/lessons/basics/iex_helpers](https://elixirschool.com/en/lessons/basics/iex_helpers)
-    - [https://medium.com/@fxn/how-does-elixir-compile-execute-code-c1b36c9ec8cf](https://medium.com/@fxn/how-does-elixir-compile-execute-code-c1b36c9ec8cf)
+    - [Elixir Interactive mode](https://elixir-lang.org/getting-started/introduction.html#interactive-mode)
+    - ["IEx Helpers" by Elixir School](https://elixirschool.com/en/lessons/basics/iex_helpers)
+    - [How does Elixir compile/execute code? by Xavier Noria](https://medium.com/@fxn/how-does-elixir-compile-execute-code-c1b36c9ec8cf)
 
 ### Elixir guide styles (non exhaustive)
 
-- [https://hexdocs.pm/elixir/1.13.4/naming-conventions.html#content](https://hexdocs.pm/elixir/1.13.4/naming-conventions.html#content)
-- https://github.com/christopheradams/elixir_style_guide
-- [https://blog.lelonek.me/an-opinionated-elixir-style-guide-2-67899790563f](https://blog.lelonek.me/an-opinionated-elixir-style-guide-2-67899790563f)
+- [Naming Conventions](https://hexdocs.pm/elixir/1.13.4/naming-conventions.html#content)
+- [The Elixir Style Guide](https://github.com/christopheradams/elixir_style_guide) (github)
+- [An opinionated Elixir Style Guide #2 by Kamil Lelonek](https://blog.lelonek.me/an-opinionated-elixir-style-guide-2-67899790563f)
 
 ### Basics (Getting started with Elixir)
 
 - **Basic types and operators:**
-    - [https://elixir-lang.org/getting-started/basic-types.html](https://elixir-lang.org/getting-started/basic-types.html)
-    - [https://elixir-lang.org/getting-started/basic-operators.html](https://elixir-lang.org/getting-started/basic-operators.html)
-    - [https://elixirschool.com/en/lessons/basics/basics#basic-data-types-3](https://elixirschool.com/en/lessons/basics/basics#basic-data-types-3)
+    - [Basic types](https://elixir-lang.org/getting-started/basic-types.html)
+    - [Basic operators](https://elixir-lang.org/getting-started/basic-operators.html)
+    - ["Basic Data Types" from Elixir School](https://elixirschool.com/en/lessons/basics/basics#basic-data-types-3)
 - **Imutability**:
-    - [https://darioghilardi.com/immutability-in-elixir/](https://darioghilardi.com/immutability-in-elixir/)
+    - [Immutability in Elixir by Dario Ghilardi](https://darioghilardi.com/immutability-in-elixir/)
 
 ### String and binaries
 
-- [https://elixir-lang.org/getting-started/binaries-strings-and-char-lists.html](https://elixir-lang.org/getting-started/binaries-strings-and-char-lists.html)
+- [Elixir's Binaries, strings, and charlists](https://elixir-lang.org/getting-started/binaries-strings-and-char-lists.html)
 
 ### Collections (List, tuples, map, etc.)
 
 - **List, tuples, map, keywords:**
-    - [https://elixirschool.com/en/lessons/basics/collections](https://elixirschool.com/en/lessons/basics/collections)
+    - ["Collections" by Elixir School](https://elixirschool.com/en/lessons/basics/collections)
 - **List comprehension:**
-    - [https://elixir-lang.org/getting-started/comprehensions.html](https://elixir-lang.org/getting-started/comprehensions.html)
+    - [Elixir's List Comprehensions](https://elixir-lang.org/getting-started/comprehensions.html)
 - **Enum modules:**
-    - [https://elixirschool.com/en/lessons/basics/enum](https://elixirschool.com/en/lessons/basics/enum)
-    - [https://elixir-lang.org/getting-started/enumerables-and-streams.html](https://elixir-lang.org/getting-started/enumerables-and-streams.html)
+    - ["Enum" by Elixir School](https://elixirschool.com/en/lessons/basics/enum)
+    - [Elixir's Enumerables and Streams](https://elixir-lang.org/getting-started/enumerables-and-streams.html)
 
 ### Pattern matching
 
-- [https://elixir-lang.org/getting-started/pattern-matching.html](https://elixir-lang.org/getting-started/pattern-matching.html)
-- [https://elixirschool.com/fr/lessons/basics/pattern_matching](https://elixirschool.com/fr/lessons/basics/pattern_matching)
+- [Elixir's Pattern matching](https://elixir-lang.org/getting-started/pattern-matching.html)
+- ["Pattern Matching" by Elixir School](https://elixirschool.com/fr/lessons/basics/pattern_matching)
 
 ### Modules and functions
 
-- [https://elixir-lang.org/getting-started/modules-and-functions.html](https://elixir-lang.org/getting-started/modules-and-functions.html)
-- [https://elixirschool.com/en/lessons/basics/modules#composition-3](https://elixirschool.com/en/lessons/basics/modules#composition-3)
+- [Elixir's Modules and functions](https://elixir-lang.org/getting-started/modules-and-functions.html)
+- ["Composition" by Elixir School](https://elixirschool.com/en/lessons/basics/modules#composition-3)
 - **functions (and anonymous functions)**:
-    - [https://elixirschool.com/en/lessons/basics/functions](https://elixirschool.com/en/lessons/basics/functions)
+    - ["Functions" by Elixir School](https://elixirschool.com/en/lessons/basics/functions)
     - **Default function argument:**
-        - [https://elixirschool.com/en/lessons/basics/functions#default-arguments-7](https://elixirschool.com/en/lessons/basics/functions#default-arguments-7)
-        - [https://elixir-lang.org/getting-started/modules-and-functions.html#default-arguments](https://elixir-lang.org/getting-started/modules-and-functions.html#default-arguments)
+        - [Elixir's Default arguments](https://elixir-lang.org/getting-started/modules-and-functions.html#default-arguments)
+        - ["Default Arguments" by Elixir School](https://elixirschool.com/en/lessons/basics/functions#default-arguments-7)
+
     - **Functions and pattern matching:**
-        - [https://elixirschool.com/en/lessons/basics/functions#functions-and-pattern-matching-4](https://elixirschool.com/en/lessons/basics/functions#functions-and-pattern-matching-4)
+        - ["Functions and Pattern Matching" by Elixir School](https://elixirschool.com/en/lessons/basics/functions#functions-and-pattern-matching-4)
 
 ### Structs
 
-- [https://elixir-lang.org/getting-started/structs.html](https://elixir-lang.org/getting-started/structs.html)
+- [Structs](https://elixir-lang.org/getting-started/structs.html)
 
 ### Guard conditions
 
-- [https://hexdocs.pm/elixir/1.13.4/patterns-and-guards.html#guards](https://hexdocs.pm/elixir/1.13.4/patterns-and-guards.html#guards)
+- [Guards on Hexdoc](https://hexdocs.pm/elixir/1.13.4/patterns-and-guards.html#guards)
 
 ### Controls Structures (cond, with, case, if)
 
-- [https://elixir-lang.org/getting-started/case-cond-and-if.html](https://elixir-lang.org/getting-started/case-cond-and-if.html)
-- [https://elixirschool.com/en/lessons/basics/control_structures](https://elixirschool.com/en/lessons/basics/control_structures)
+- [case, cond, and if](https://elixir-lang.org/getting-started/case-cond-and-if.html)
+- ["Control Structures" by Elixir School](https://elixirschool.com/en/lessons/basics/control_structures)
 
 ### IO and files
 
-- [https://elixir-lang.org/getting-started/io-and-the-file-system.html](https://elixir-lang.org/getting-started/io-and-the-file-system.html)
+- [IO and the file system](https://elixir-lang.org/getting-started/io-and-the-file-system.html)
 
 ### Debugging with Elixir
 
-- [https://blog.appsignal.com/2021/11/30/three-ways-to-debug-code-in-elixir.html](https://blog.appsignal.com/2021/11/30/three-ways-to-debug-code-in-elixir.html)
+- [Three Ways to Debug Code in Elixir by Pulkit Goyal](https://blog.appsignal.com/2021/11/30/three-ways-to-debug-code-in-elixir.html)
 
 ## Level 2 (Phoenix, Ecto and OTP basics)
 
@@ -249,23 +250,23 @@ graph TD
 
 ### Mix
 
-- [https://elixirschool.com/en/lessons/basics/mix](https://elixirschool.com/en/lessons/basics/mix)
-- [https://elixir-lang.org/getting-started/mix-otp/introduction-to-mix.html](https://elixir-lang.org/getting-started/mix-otp/introduction-to-mix.html)
+- ["Mix" by Elixir School](https://elixirschool.com/en/lessons/basics/mix)
+- [Introduction to Mix](https://elixir-lang.org/getting-started/mix-otp/introduction-to-mix.html)
 
 ### Errors and Exceptions
 
-- [https://elixir-lang.org/getting-started/try-catch-and-rescue.html](https://elixir-lang.org/getting-started/try-catch-and-rescue.html)
-- [https://elixirschool.com/en/lessons/intermediate/error_handling](https://elixirschool.com/en/lessons/intermediate/error_handling)
+- [try, catch, and rescue](https://elixir-lang.org/getting-started/try-catch-and-rescue.html)
+- ["Error Handling" by Elixir School](https://elixirschool.com/en/lessons/intermediate/error_handling)
 
 ### Testing your code
 
-- [https://hexdocs.pm/ex_unit/1.13/ExUnit.html](https://hexdocs.pm/ex_unit/1.13/ExUnit.html)
-- [https://semaphoreci.com/community/tutorials/introduction-to-testing-elixir-applications-with-exunit](https://semaphoreci.com/community/tutorials/introduction-to-testing-elixir-applications-with-exunit)
-- [https://elixirschool.com/en/lessons/testing/basics](https://elixirschool.com/en/lessons/testing/basics)
+- [ExUnit](https://hexdocs.pm/ex_unit/1.13/ExUnit.html)
+- [Introduction to Testing Elixir Applications with ExUnit by Cody Boggs](https://semaphoreci.com/community/tutorials/introduction-to-testing-elixir-applications-with-exunit)
+- ["Testing" by Elixir School](https://elixirschool.com/en/lessons/testing/basics)
 
 ### Configuration and releases
 
-- [https://elixir-lang.org/getting-started/mix-otp/config-and-releases.html](https://elixir-lang.org/getting-started/mix-otp/config-and-releases.html)
+- [Configuration and releases](https://elixir-lang.org/getting-started/mix-otp/config-and-releases.html)
 
 ### Erlang with Elixir
   - [Erlang Interoperability](https://elixirschool.com/en/lessons/intermediate/erlang)
@@ -290,7 +291,7 @@ graph TD
 | => [Ecto's official repository](https://github.com/elixir-ecto/ecto)
 
 - [Ecto documentation](https://hexdocs.pm/ecto/Ecto.html)
-- [Ecto: An Introduction to Elixir's Database Toolkit](https://serokell.io/blog/ecto-guide-for-beginners)
+- [Ecto: An Introduction to Database Toolkit](https://serokell.io/blog/ecto-guide-for-beginners)
 - ["Lessons: Ecto" from Elixir School](https://elixirschool.com/en/lessons/ecto)
 - [A brief guide to Ecto.Multi](https://elixirschool.com/blog/ecto-multi/)
 - [Ecto.Multi hexdoc](https://hexdocs.pm/ecto/Ecto.Multi.html)
@@ -333,6 +334,7 @@ graph TD
 - [Elixir Processes](https://elixir-lang.org/getting-started/processes.html#:~:text=In%20Elixir%2C%20all%20code%20runs,distributed%20and%20fault%2Dtolerant%20programs.)
 - [Understanding Processes for Elixir Developers](https://www.erlang-solutions.com/blog/understanding-processes-for-elixir-developers/)
 - [Elixir, A Little Beyond The Basics - Part 6: processes](https://www.openmymind.net/Elixir-A-Little-Beyond-The-Basics-Part-6-processes/)
+- [Elixir processes, or Biology-inspired software development](https://www.youtube.com/watch?v=hqePVT3o_6g) (Video)
 
 ### Supervisors
 
