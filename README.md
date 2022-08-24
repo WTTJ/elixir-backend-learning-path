@@ -1,13 +1,12 @@
-
 Simple diagrams and resources to help learning Elixir, Phoenix, Ecto and other useful stuff for Web Developers.
 
 - [🗨️ Intro](#️-intro)
-    - [❔ What to expect](#-what-to-expect)
-    - [Contributions](#contributions)
+  - [❔ What to expect](#-what-to-expect)
+  - [Contributions](#contributions)
 - [📖 Global Resources](#-global-resources)
   - [🔬 What is Elixir ?](#-what-is-elixir-)
     - [What is functional programming?](#what-is-functional-programming)
-    - [Global learning and “veille” resources](#global-learning-and-veille-resources)
+    - [Global learning and tech watch resources](#global-learning-and-veille-resources)
     - [Why going for Elixir ?](#why-going-for-elixir-)
 - [Elixir learning path](#elixir-learning-path)
   - [Level 1 (Elixir)](#level-1-elixir)
@@ -40,20 +39,18 @@ Simple diagrams and resources to help learning Elixir, Phoenix, Ecto and other u
 
 # 🗨️ Intro
 
-
 ### ❔ What to expect
 
-This document can help guiding you through Elixir and give you directions what to learn next.
-This is not the only way to learn Elixir and should not be considered like a course. The goal here is just to give some tips and resources for each concepts we believe are important.
-Each levels represent knowledge that are usefull for Elixir Developers, but Espacially for Web Developer. A lot might be missing, feel free to contributes with your own resources, path, etc.
+This document can help guide you through Elixir and give you some ideas about what to learn next.
+This learning path shows one of the many ways to learn Elixir, and should not be considered as a course. The goal here is to give you some tips and resources for each concepts we believe are important.
 
-Resources are not always matching their diagrams. It is because diagrams are meant to have a visual reprensation of the "leveling" and resources will often match multiple step of a diagram.
-
-Some of the concepts are abitrarly put at a higher level (because of their complexity) but might not really belongs there. For example AST is core to Elixir and might be important to check early, but due to its complexity is delay to level 3.
+Each level represents knowledge that are usefull for Elixir Developers, espacially for Web Developers. Some concepts might be missing, so feel free to contribute with your own resources, path, etc.
+The diagrams provided in this document are meant to illustrate concepts of each leavel, and resources you can find here will match multiple steps of a diagram. That's why resources don't always match the diagrams.
+Some of the concepts are arbitrarly put in a higher level because of their complexity, however, they might not really belong to that level. For example, AST is the core to Elixir and might be important to be mentioned earlier, but due to its complexity, I put it in level 3.
 
 ### Contributions
 
-Anyone can contributes, add resources, links and update mermaid diagrams :) Feel free to open a PR with your updates!
+Anyone can contribute, add resources, links and update mermaid diagrams :) Feel free to open a PR with your updates!
 
 # 📖 Global Resources
 
@@ -62,12 +59,14 @@ Anyone can contributes, add resources, links and update mermaid diagrams :) Feel
 - [BEHIND THE CODE: The one who created Elixir](https://www.youtube.com/watch?v=dPRt5pOIFHk) (Jose Valim, creator of Elixir)
 - [Elixir official website](https://elixir-lang.org/)
 - [Introduction to Elixir by Gints Dreimanis](https://serokell.io/blog/introduction-to-elixir)
+- [Elixir in 100 seconds](https://www.youtube.com/watch?v=R7t7zca8SyM)
 
 ### What is functional programming?
 
 - [Functional Programming 101 by Cassidy Williams](https://github.com/readme/guides/functional-programming-basics)
+- [What is functional programming | Easy way](https://www.youtube.com/watch?v=dAPL7MQGjyM)
 
-### Global learning and “veille” resources
+### Global learning and tech watch resources
 
 - [Official Elixir documentation](https://elixir-lang.org/docs.html)
 - [ElixirSchool](https://elixirschool.com/en)
@@ -75,28 +74,29 @@ Anyone can contributes, add resources, links and update mermaid diagrams :) Feel
 - [ThinkingElixir podcast](https://thinkingelixir.com/)
 - [Awesome Elixir](https://github.com/h4cc/awesome-elixir)
 - [ElixirConf youtube channel](https://www.youtube.com/c/ElixirConf)
-- [Wttj tech medium page](https://medium.com/wttj-tech)
+- [Welcome to The Jungle Tech medium page](https://medium.com/wttj-tech)
 - [AppSignal's blog](https://blog.appsignal.com/)
 
-### Why going for Elixir ?
+### Why go for Elixir ?
 
-- ****[The Soul of Erlang and Elixir • Saša Jurić • GOTO 2019](https://www.youtube.com/watch?v=JvBT4XBdoUE)**** (42min)
+- \***\*[The Soul of Erlang and Elixir • Saša Jurić • GOTO 2019](https://www.youtube.com/watch?v=JvBT4XBdoUE)\*\*** (42min)
 
 # Elixir learning path
+
 ## Level 1 (Elixir)
 
-→ During this level you can practice using the [Exercism’s Elixir track](https://exercism.org/tracks/elixir). They have puzzles and exercises for every Elixir concepts. And their [Sylabus](https://exercism.org/tracks/elixir/concepts) is great!
+→ At this level, you can practice coding with Elixir using the [Exercism’s Elixir track](https://exercism.org/tracks/elixir), a website where you can find puzzles and exercises for every Elixir concepts.
+Plus, their [Sylabus](https://exercism.org/tracks/elixir/concepts) is great!
 
 → You can also refer to [ElixirSchool](https://elixirschool.com/en) and the [official Elixir documentation](https://elixir-lang.org/getting-started/introduction.html).
-
 
 ```mermaid
 graph TD
 Install[Installing with ASDF] --> Running[Running IEx]
-Running --> Basics[Basics syntax and concepts - immutability, variables, etc.]
+Running --> Basics[Basic syntax and concepts - immutability, variables, etc.]
 Basics --> Modules[Modules]
 Basics --> Strings[String and binaries]
-Basics -->AnonymousFunctions[Anonymous Functions]
+Basics --> AnonymousFunctions[Anonymous Functions]
 Basics --> PatternMatching[Pattern Matching]
 Basics --> ListTuplesMaps[Lists, Tuples, Maps]
 Basics --> SimpleDebugging[Simple Debugging - IO.inpsect etc.]
@@ -120,13 +120,12 @@ Doc[Documentation and Typespecs]
 ### Installing Elixir and Running IEx
 
 - **asdf (version manager)**:
-    - [Asdf](https://asdf-vm.com/)
-    - [Installing Elixir and Erlang With ASDF](https://www.pluralsight.com/guides/installing-elixir-erlang-with-asdf)
-    
+  - [Asdf](https://asdf-vm.com/)
+  - [Installing Elixir and Erlang With ASDF](https://www.pluralsight.com/guides/installing-elixir-erlang-with-asdf)
 - **IEx (elixir console) and compilation**:
-    - [Elixir Interactive mode](https://elixir-lang.org/getting-started/introduction.html#interactive-mode)
-    - ["IEx Helpers" by Elixir School](https://elixirschool.com/en/lessons/basics/iex_helpers)
-    - [How does Elixir compile/execute code? by Xavier Noria](https://medium.com/@fxn/how-does-elixir-compile-execute-code-c1b36c9ec8cf)
+  - [Elixir Interactive mode](https://elixir-lang.org/getting-started/introduction.html#interactive-mode)
+  - ["IEx Helpers" by Elixir School](https://elixirschool.com/en/lessons/basics/iex_helpers)
+  - [How does Elixir compile/execute code? by Xavier Noria](https://medium.com/@fxn/how-does-elixir-compile-execute-code-c1b36c9ec8cf)
 
 ### Elixir guide styles (non exhaustive)
 
@@ -137,11 +136,11 @@ Doc[Documentation and Typespecs]
 ### Basics (Getting started with Elixir)
 
 - **Basic types and operators:**
-    - [Basic types](https://elixir-lang.org/getting-started/basic-types.html)
-    - [Basic operators](https://elixir-lang.org/getting-started/basic-operators.html)
-    - ["Basic Data Types" from Elixir School](https://elixirschool.com/en/lessons/basics/basics#basic-data-types-3)
+  - [Basic types](https://elixir-lang.org/getting-started/basic-types.html)
+  - [Basic operators](https://elixir-lang.org/getting-started/basic-operators.html)
+  - ["Basic Data Types" from Elixir School](https://elixirschool.com/en/lessons/basics/basics#basic-data-types-3)
 - **Imutability**:
-    - [Immutability in Elixir by Dario Ghilardi](https://darioghilardi.com/immutability-in-elixir/)
+  - [Immutability in Elixir by Dario Ghilardi](https://darioghilardi.com/immutability-in-elixir/)
 
 ### String and binaries
 
@@ -150,12 +149,12 @@ Doc[Documentation and Typespecs]
 ### Collections (List, tuples, map, etc.)
 
 - **List, tuples, map, keywords:**
-    - ["Collections" by Elixir School](https://elixirschool.com/en/lessons/basics/collections)
+  - ["Collections" by Elixir School](https://elixirschool.com/en/lessons/basics/collections)
 - **List comprehension:**
-    - [Elixir's List Comprehensions](https://elixir-lang.org/getting-started/comprehensions.html)
+  - [Elixir's List Comprehensions](https://elixir-lang.org/getting-started/comprehensions.html)
 - **Enum modules:**
-    - ["Enum" by Elixir School](https://elixirschool.com/en/lessons/basics/enum)
-    - [Elixir's Enumerables and Streams](https://elixir-lang.org/getting-started/enumerables-and-streams.html)
+  - ["Enum" by Elixir School](https://elixirschool.com/en/lessons/basics/enum)
+  - [Elixir's Enumerables and Streams](https://elixir-lang.org/getting-started/enumerables-and-streams.html)
 
 ### Pattern matching
 
@@ -167,13 +166,15 @@ Doc[Documentation and Typespecs]
 - [Elixir's Modules and functions](https://elixir-lang.org/getting-started/modules-and-functions.html)
 - ["Composition" by Elixir School](https://elixirschool.com/en/lessons/basics/modules#composition-3)
 - **functions (and anonymous functions)**:
-    - ["Functions" by Elixir School](https://elixirschool.com/en/lessons/basics/functions)
-    - **Default function argument:**
-        - [Elixir's Default arguments](https://elixir-lang.org/getting-started/modules-and-functions.html#default-arguments)
-        - ["Default Arguments" by Elixir School](https://elixirschool.com/en/lessons/basics/functions#default-arguments-7)
 
-    - **Functions and pattern matching:**
-        - ["Functions and Pattern Matching" by Elixir School](https://elixirschool.com/en/lessons/basics/functions#functions-and-pattern-matching-4)
+  - ["Functions" by Elixir School](https://elixirschool.com/en/lessons/basics/functions)
+  - **Default function argument:**
+
+    - [Elixir's Default arguments](https://elixir-lang.org/getting-started/modules-and-functions.html#default-arguments)
+    - ["Default Arguments" by Elixir School](https://elixirschool.com/en/lessons/basics/functions#default-arguments-7)
+
+  - **Functions and pattern matching:**
+    - ["Functions and Pattern Matching" by Elixir School](https://elixirschool.com/en/lessons/basics/functions#functions-and-pattern-matching-4)
 
 ### Structs
 
@@ -269,23 +270,24 @@ graph TD
 - [Configuration and releases](https://elixir-lang.org/getting-started/mix-otp/config-and-releases.html)
 
 ### Erlang with Elixir
-  - [Erlang Interoperability](https://elixirschool.com/en/lessons/intermediate/erlang)
+
+- [Erlang Interoperability](https://elixirschool.com/en/lessons/intermediate/erlang)
 
 ### OTP Basics
 
- - [Intro to OTP with Elixir](https://www.youtube.com/watch?v=CJT8wPnmjTM) (Video)
- - [A brief guide to OTP in Elixir](https://serokell.io/blog/elixir-otp-guide)
+- [Intro to OTP with Elixir](https://www.youtube.com/watch?v=CJT8wPnmjTM) (Video)
+- [A brief guide to OTP in Elixir](https://serokell.io/blog/elixir-otp-guide)
 
 ### Phoenix
 
 | => [Phoenix's official repository](https://github.com/phoenixframework/phoenix)
 
- - [Phoenix documentation](https://hexdocs.pm/phoenix/Phoenix.html)
- - [Anatomy of a Phoenix App](https://www.fullstacklabs.co/blog/anatomy-of-a-phoenix-app)
- - [Phoenix Contexts](https://hexdocs.pm/phoenix/contexts.html)
- - [Creating a chat App - ElixirBridge](https://elixirbridge.org/03_Intro_to_Phoenix/01-creating-a-chat-app.html) (Tutorial)
- - [Phoenix a Web Framework for the New Web](https://www.youtube.com/watch?v=bk3icU8iIto&t=2605s) (Video)
-  
+- [Phoenix documentation](https://hexdocs.pm/phoenix/Phoenix.html)
+- [Anatomy of a Phoenix App](https://www.fullstacklabs.co/blog/anatomy-of-a-phoenix-app)
+- [Phoenix Contexts](https://hexdocs.pm/phoenix/contexts.html)
+- [Creating a chat App - ElixirBridge](https://elixirbridge.org/03_Intro_to_Phoenix/01-creating-a-chat-app.html) (Tutorial)
+- [Phoenix a Web Framework for the New Web](https://www.youtube.com/watch?v=bk3icU8iIto&t=2605s) (Video)
+
 ### Ecto
 
 | => [Ecto's official repository](https://github.com/elixir-ecto/ecto)
@@ -296,9 +298,10 @@ graph TD
 - [A brief guide to Ecto.Multi](https://elixirschool.com/blog/ecto-multi/)
 - [Ecto.Multi hexdoc](https://hexdocs.pm/ecto/Ecto.Multi.html)
 - [Dynamic queries](https://hexdocs.pm/ecto/dynamic-queries.html)
+
 ## Level 3 (OTP, MetaProgramming)
 
-```mermaid  
+```mermaid
 graph TD
     Processes[Processes - Spawn, Send, Receive]
     Supervisors[Supervisors]
@@ -343,13 +346,10 @@ graph TD
 - [Using Supervisors to Organize Your Elixir Application](https://blog.appsignal.com/2021/08/23/using-supervisors-to-organize-your-elixir-application.html)
 - [Elixir, A Little Beyond The Basics - Part 7: supervisors](https://www.openmymind.net/Elixir-A-Little-Beyond-The-Basics-Part-7-supervisors/)
 
-
 ### AST
 
 - [A Deep dive into the Elixir AST](https://dorgan.netlify.app/posts/2021/04/the_elixir_ast/)
 - [The Elixir AST explained using the AST Ninja](https://www.botsquad.com/2019/04/11/the-ast-explained/)
-
-
 
 # 📚 Books
 
