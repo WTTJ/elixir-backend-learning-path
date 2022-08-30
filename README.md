@@ -79,7 +79,7 @@ Anyone can contribute, add resources, links and update mermaid diagrams :) Feel 
 
 ### Why go for Elixir ?
 
-- \***\*[The Soul of Erlang and Elixir • Saša Jurić • GOTO 2019](https://www.youtube.com/watch?v=JvBT4XBdoUE)\*\*** (42min)
+- [The Soul of Erlang and Elixir • Saša Jurić • GOTO 2019](https://www.youtube.com/watch?v=JvBT4XBdoUE) (42min)
 
 # Elixir learning path
 
