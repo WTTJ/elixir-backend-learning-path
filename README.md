@@ -1,13 +1,13 @@
 Simple diagrams and resources to help learning Elixir, Phoenix, Ecto and other useful stuff for Web Developers.
 
 - [🗨️ Intro](#️-intro)
-  - [❔ What to expect](#-what-to-expect)
-  - [Contributions](#contributions)
+    - [❔ What to expect](#-what-to-expect)
+    - [Contributions](#contributions)
 - [📖 Global Resources](#-global-resources)
   - [🔬 What is Elixir ?](#-what-is-elixir-)
     - [What is functional programming?](#what-is-functional-programming)
-    - [Global learning and tech watch resources](#global-learning-and-veille-resources)
-    - [Why going for Elixir ?](#why-going-for-elixir-)
+    - [Global learning and tech watch resources](#global-learning-and-tech-watch-resources)
+    - [Why go for Elixir ?](#why-go-for-elixir-)
 - [Elixir learning path](#elixir-learning-path)
   - [Level 1 (Elixir)](#level-1-elixir)
     - [Installing Elixir and Running IEx](#installing-elixir-and-running-iex)
@@ -36,6 +36,7 @@ Simple diagrams and resources to help learning Elixir, Phoenix, Ecto and other u
     - [Supervisors](#supervisors)
     - [AST](#ast)
 - [📚 Books](#-books)
+- [🏘️ Communities](#️-communities)
 
 # 🗨️ Intro
 
@@ -359,3 +360,11 @@ graph TD
 - [Metaprogramming Elixir](https://pragprog.com/titles/cmelixir/metaprogramming-elixir/)
 - [Phoenix in Action](https://www.manning.com/books/phoenix-in-action)
 - [Programming Phoenix 1.4](https://pragprog.com/titles/phoenix14/programming-phoenix-1-4/)
+
+# 🏘️ Communities
+
+- [Elixir Forum](https://elixirforum.com/)
+- [Elixir Community Slack](https://elixir-slackin.herokuapp.com/)
+- [Elixir Community Discord](https://discord.com/invite/elixir)
+- [Elixir Programming LinkedIn Group](https://www.linkedin.com/groups/6530248/)
+
