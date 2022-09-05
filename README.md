@@ -81,6 +81,10 @@ Anyone can contribute, add resources, links and update mermaid diagrams :) Feel 
 
 - [The Soul of Erlang and Elixir • Saša Jurić • GOTO 2019](https://www.youtube.com/watch?v=JvBT4XBdoUE) (42min)
 
+### 10 tips for new elixir developpers
+
+- [10 tips](https://dev.to/chriis/10-tips-for-new-elixir-developers-48jl)
+
 # Elixir learning path
 
 ## Level 1 (Elixir)
