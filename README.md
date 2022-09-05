@@ -35,6 +35,7 @@ Simple diagrams and resources to help learning Elixir, Phoenix, Ecto and other u
     - [Processes (Spawn, Links, Tasks, etc.)](#processes-spawn-links-tasks-etc)
     - [Supervisors](#supervisors)
     - [AST](#ast)
+    - [Advanced Testing](#advanced-testing)
 - [📚 Books](#-books)
 - [🏘️ Communities](#️-communities)
 
@@ -355,6 +356,10 @@ graph TD
 
 - [A Deep dive into the Elixir AST](https://dorgan.netlify.app/posts/2021/04/the_elixir_ast/)
 - [The Elixir AST explained using the AST Ninja](https://www.botsquad.com/2019/04/11/the-ast-explained/)
+
+### Advanced testing
+
+- [Mocks and explicit contracts](https://dashbit.co/blog/mocks-and-explicit-contracts)
 
 # 📚 Books
 
