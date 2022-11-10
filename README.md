@@ -96,6 +96,8 @@ Plus, their [Sylabus](https://exercism.org/tracks/elixir/concepts) is great!
 
 → You can also refer to [ElixirSchool](https://elixirschool.com/en) and the [official Elixir documentation](https://elixir-lang.org/getting-started/introduction.html).
 
+→ [An Animated Introduction to Elixir](https://markm208.github.io/exbook/) is also a good entry point to practice Elixir's concepts.
+
 ```mermaid
 graph TD
 Install[Installing with ASDF] --> Running[Running IEx]
