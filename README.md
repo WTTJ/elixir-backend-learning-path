@@ -8,6 +8,8 @@ Simple diagrams and resources to help learning Elixir, Phoenix, Ecto and other u
     - [What is functional programming?](#what-is-functional-programming)
     - [Global learning and tech watch resources](#global-learning-and-tech-watch-resources)
     - [Why go for Elixir ?](#why-go-for-elixir-)
+    - [10 tips for new elixir developpers](#10-tips-for-new-elixir-developpers)
+    - [Elixir cheat sheet](#elixir-cheat-sheet)
 - [Elixir learning path](#elixir-learning-path)
   - [Level 1 (Elixir)](#level-1-elixir)
     - [Installing Elixir and Running IEx](#installing-elixir-and-running-iex)
@@ -35,7 +37,7 @@ Simple diagrams and resources to help learning Elixir, Phoenix, Ecto and other u
     - [Processes (Spawn, Links, Tasks, etc.)](#processes-spawn-links-tasks-etc)
     - [Supervisors](#supervisors)
     - [AST](#ast)
-    - [Advanced Testing](#advanced-testing)
+    - [Advanced testing](#advanced-testing)
 - [📚 Books](#-books)
 - [🏘️ Communities](#️-communities)
 
@@ -86,6 +88,10 @@ Anyone can contribute, add resources, links and update mermaid diagrams :) Feel 
 ### 10 tips for new elixir developpers
 
 - [10 tips](https://dev.to/chriis/10-tips-for-new-elixir-developers-48jl)
+
+### Elixir cheat sheet
+
+- [Elixir cheat sheet](https://media.pragprog.com/titles/elixir/ElixirCheat.pdf)
 
 # Elixir learning path
 
