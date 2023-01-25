@@ -11,7 +11,7 @@ Simple diagrams and resources to help learning Elixir, Phoenix, Ecto and other u
     - [10 tips for new elixir developpers](#10-tips-for-new-elixir-developpers)
     - [Elixir cheat sheet](#elixir-cheat-sheet)
 - [Elixir learning path](#elixir-learning-path)
-  - [Level 1 (Elixir)](#level-1-elixir)
+  - [Section 1 (Elixir)](#section-1-elixir)
     - [Installing Elixir and Running IEx](#installing-elixir-and-running-iex)
     - [Elixir guide styles (non exhaustive)](#elixir-guide-styles-non-exhaustive)
     - [Basics (Getting started with Elixir)](#basics-getting-started-with-elixir)
@@ -24,7 +24,8 @@ Simple diagrams and resources to help learning Elixir, Phoenix, Ecto and other u
     - [Controls Structures (cond, with, case, if)](#controls-structures-cond-with-case-if)
     - [IO and files](#io-and-files)
     - [Debugging with Elixir](#debugging-with-elixir)
-  - [Level 2 (Phoenix, Ecto and OTP basics)](#level-2-phoenix-ecto-and-otp-basics)
+- [👣 Get your feet wet](#-get-your-feet-wet)
+  - [Section 2 (Phoenix, Ecto and OTP basics)](#section-2-phoenix-ecto-and-otp-basics)
     - [Mix](#mix)
     - [Errors and Exceptions](#errors-and-exceptions)
     - [Testing your code](#testing-your-code)
@@ -33,7 +34,7 @@ Simple diagrams and resources to help learning Elixir, Phoenix, Ecto and other u
     - [OTP Basics](#otp-basics)
     - [Phoenix](#phoenix)
     - [Ecto](#ecto)
-  - [Level 3 (OTP, MetaProgramming)](#level-3-otp-metaprogramming)
+  - [Section 3 (OTP, MetaProgramming)](#section-3-otp-metaprogramming)
     - [Processes (Spawn, Links, Tasks, etc.)](#processes-spawn-links-tasks-etc)
     - [Supervisors](#supervisors)
     - [AST](#ast)
@@ -95,7 +96,7 @@ Anyone can contribute, add resources, links and update mermaid diagrams :) Feel 
 
 # Elixir learning path
 
-## Level 1 (Elixir)
+## Section 1 (Elixir)
 
 → At this level, you can practice coding with Elixir using the [Exercism’s Elixir track](https://exercism.org/tracks/elixir), a website where you can find puzzles and exercises for every Elixir concepts.
 Plus, their [Sylabus](https://exercism.org/tracks/elixir/concepts) is great!
@@ -211,7 +212,16 @@ Doc[Documentation and Typespecs]
 
 - [Three Ways to Debug Code in Elixir by Pulkit Goyal](https://blog.appsignal.com/2021/11/30/three-ways-to-debug-code-in-elixir.html)
 
-## Level 2 (Phoenix, Ecto and OTP basics)
+# 👣 Get your feet wet
+
+After reading through all these documentations for the first section, you must have gathered some basic knowledge about Elixir. 
+Now, let's do a series of exercises covering different concepts we mentioned above, and get yourself more familiar with the language. 
+The exercises were written in Livebook. To access the website, you need this password: 7ieocxmigw3pyruhnxzp5v66jdgiatw5
+
+- [Section 1 exercises](https://elixir-learning-path.fly.dev/sessions/xgcbllf6pzsuj7nyhv2qdjock36exfvtv4qydeav)
+
+
+## Section 2 (Phoenix, Ecto and OTP basics)
 
 ```mermaid
 graph TD
@@ -313,7 +323,7 @@ graph TD
 - [Ecto.Multi hexdoc](https://hexdocs.pm/ecto/Ecto.Multi.html)
 - [Dynamic queries](https://hexdocs.pm/ecto/dynamic-queries.html)
 
-## Level 3 (OTP, MetaProgramming)
+## Section 3 (OTP, MetaProgramming)
 
 ```mermaid
 graph TD
