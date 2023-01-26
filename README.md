@@ -25,6 +25,7 @@ Simple diagrams and resources to help learning Elixir, Phoenix, Ecto and other u
     - [IO and files](#io-and-files)
     - [Debugging with Elixir](#debugging-with-elixir)
 - [👣 Get your feet wet](#-get-your-feet-wet)
+    - [Section 1 exercises](#section-1-exercises)
   - [Section 2 (Phoenix, Ecto and OTP basics)](#section-2-phoenix-ecto-and-otp-basics)
     - [Mix](#mix)
     - [Errors and Exceptions](#errors-and-exceptions)
@@ -216,10 +217,10 @@ Doc[Documentation and Typespecs]
 
 After reading through all these documentations for the first section, you must have gathered some basic knowledge about Elixir. 
 Now, let's do a series of exercises covering different concepts we mentioned above, and get yourself more familiar with the language. 
-The exercises were written in Livebook. To access the website, you need this password: 7ieocxmigw3pyruhnxzp5v66jdgiatw5
+The exercises were written in Livebook. 
 
-- [Section 1 exercises](https://elixir-learning-path.fly.dev/sessions/xgcbllf6pzsuj7nyhv2qdjock36exfvtv4qydeav)
-
+### Section 1 exercises
+[![Run in Livebook](https://livebook.dev/badge/v1/black.svg)](https://livebook.dev/run?url=https%3A%2F%2Felixir-learning-path.fly.dev%2Fsessions%2Fxgcbllf6pzsuj7nyhv2qdjock36exfvtv4qydeav)
 
 ## Section 2 (Phoenix, Ecto and OTP basics)
 
