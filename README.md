@@ -64,6 +64,7 @@ Anyone can contribute, add resources, links and update mermaid diagrams :) Feel 
 - [Elixir official website](https://elixir-lang.org/)
 - [Introduction to Elixir by Gints Dreimanis](https://serokell.io/blog/introduction-to-elixir)
 - [Elixir in 100 seconds](https://www.youtube.com/watch?v=R7t7zca8SyM)
+- [Elixir: The Documenary](https://www.youtube.com/watch?v=lxYFOM3UJzo)
 
 ### What is functional programming?
 
