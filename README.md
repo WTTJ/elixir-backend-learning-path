@@ -111,25 +111,25 @@ Install[Installing with ASDF] --> Running[Running IEx]
 Running --> Basics[Basic syntax and concepts - immutability, variables, etc.]
 Basics --> Modules[Modules]
 Basics --> Strings[String and binaries]
-Basics --> AnonymousFunctions[Anonymous Functions]
-Basics --> PatternMatching[Pattern Matching]
+Basics --> AnonymousFunctions[Anonymous functions]
+Basics --> PatternMatching[Pattern matching]
 Basics --> ListTuplesMaps[Lists, Tuples, Maps]
-Basics --> SimpleDebugging[Simple Debugging - IO.inpsect etc.]
+Basics --> SimpleDebugging[Simple sebugging - IO.inpsect etc.]
 Modules --> Functions[Functions]
-Functions --> DefaultArg[Default functions arguments]
-DefaultArg --> Guards[Guard Conditions]
-Guards --> MultipleClauseFn[Multiple Clause Functions]
+Functions --> DefaultArg[Default function arguments]
+DefaultArg --> Guards[Guard conditions]
+Guards --> MultipleClauseFn[Multiple clause functions]
 PatternMatching --> MultipleClauseFn
 PatternMatching --> CaseWithCond[Case, With, Cond]
 Guards --> CaseWithCond
 ListTuplesMaps --> Structs
 Modules --> Structs
 ListTuplesMaps --> Keywords[Keywords]
-ListTuplesMaps --> EnumModule[Enum Module]
+ListTuplesMaps --> EnumModule[Enum module]
 AnonymousFunctions --> EnumModule
 EnumModule --> Stream[Stream]
 Stream --> Files[Files]
-Doc[Documentation and Typespecs]
+Doc[Documentation and typespecs]
 ```
 
 ### Installing Elixir and Running IEx
@@ -217,12 +217,12 @@ Doc[Documentation and Typespecs]
 ```mermaid
 graph TD
     Mix[Mix]
-    Errors[Errors and Exceptions]
+    Errors[Errors and exceptions]
     Erlang[Erlang and Elixir]
-    OTP[OTP Basic comprehension]
-    BasicCommands[Basic commands - New, Deps,etc.]
+    OTP[OTP basic comprehension]
+    BasicCommands[Basic commands - new, deps, etc.]
     ExUnit[ExUnit and testing]
-    Compilation[Compilation and Releases]
+    Compilation[Compilation and releases]
     Phoenix[Phoenix basics - Application architecture]
     Plug[Plug and Conn]
     Router[Router]
@@ -230,11 +230,11 @@ graph TD
     Views[Views]
     Contexts[Contexts]
     Ecto[Ecto basics - Schema, Fields type etc.]
-    RepoConfig[Ecto Configuration]
+    RepoConfig[Ecto configuration]
     Migrations[Migrations]
-    Schemas[Schemas - Relations, Embeded, Types]
+    Schemas[Schemas - relations, embedded, types]
     EctoQuery[Ecto.Query]
-    EctoTransaction[Ecto Transactions]
+    EctoTransaction[Ecto transactions]
     Multi[Multi]
     Fragments[Fragments]
     Dynamic[Dynamic]
@@ -318,7 +318,7 @@ graph TD
 
 ```mermaid
 graph TD
-    Processes[Processes - Spawn, Send, Receive]
+    Processes[Processes - spawn, send, receive]
     Supervisors[Supervisors]
     Genserver[GenServer]
     Agent[Agent]
@@ -330,8 +330,8 @@ graph TD
     Protocols[Protocols]
     Behaviours[Behaviours]
     Mox[Mox and Hammox - testing]
-    MetaProgramming[Meta Programming]
-    AST[Abrasct Syntax Tree - AST]
+    MetaProgramming[Meta programming]
+    AST[Abstract Syntax Tree - AST]
     Processes --> Supervisors
     Supervisors --> Genserver
     Supervisors --> Agent
