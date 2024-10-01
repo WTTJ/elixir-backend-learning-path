@@ -1,0 +1,80 @@
+# Elixir Learning Path
+
+## Section 1 exercises
+
+Get your hands dirty on Elixir with the series of exercises below. The idea is to write a function that returns expected output, with unit tests implemented.
+
+<!-- livebook:{"break_markdown":true} -->
+
+### String length
+
+Given a string, you need to return the number of characters.
+
+```elixir
+defmodule String.Length do
+  def string_length(string) do
+    ## Your solution here
+  end
+end
+```
+
+```elixir
+ExUnit.start(auto_run: false)
+
+defmodule String.LengthTest do
+  use ExUnit.Case, async: false
+  alias String.Length
+
+  describe "string_length/1" do
+    test "the length of hello is 5" do
+      assert Length.string_length("hello") == 5
+    end
+
+    test "the length of wikipedia is 9" do
+      assert Length.string_length("wikipedia") == 9
+    end
+
+    test "the length of dsqsqdqsdeqdfqfaezaezeqsdsqrerdsqdqsdqdqdqs is 43" do
+      assert Length.string_length("dsqsqdqsdeqdfqfaezaezeqsdsqrerdsqdqsdqdqdqs") == 43
+    end
+  end
+end
+
+ExUnit.run()
+```
+
+### Addition
+
+Write a function that returns the addition of a and b.
+
+```elixir
+defmodule Addition do
+  def add(a, b) when is_integer(a) and is_integer(b) do
+    ## Your solution here
+  end
+end
+```
+
+```elixir
+ExUnit.start(auto_run: false)
+
+defmodule AdditionTest do
+  use ExUnit.Case, async: false
+
+  describe "add/2" do
+    test "2 add 1 equals 3" do
+      assert Addition.add(2, 1) == 3
+    end
+
+    test "532323132 add 2423242424 equals" do
+      assert Addition.add(532_323_132, 2_423_242_424) == 2_955_565_556
+    end
+
+    test "if one of the element is not integer should transform it and perform addition" do
+      assert Addition.add("2", 1) == 3
+    end
+  end
+end
+
+ExUnit.run()
+```
