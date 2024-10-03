@@ -1,8 +1,8 @@
 Simple diagrams and resources to help learning Elixir, Phoenix, Ecto and other useful stuff for Web Developers.
 
 - [🗨️ Intro](#️-intro)
-    - [❔ What to expect](#-what-to-expect)
-    - [Contributions](#contributions)
+  - [❔ What to expect](#-what-to-expect)
+  - [Contributions](#contributions)
 - [📖 Global Resources](#-global-resources)
   - [🔬 What is Elixir ?](#-what-is-elixir-)
     - [What is functional programming?](#what-is-functional-programming)
@@ -33,12 +33,13 @@ Simple diagrams and resources to help learning Elixir, Phoenix, Ecto and other u
     - [OTP Basics](#otp-basics)
     - [Phoenix](#phoenix)
     - [Ecto](#ecto)
-  - [Level 3 (OTP, MetaProgramming)](#level-3-otp-metaprogramming)
+  - [Level 3 (OTP, MetaProgramming, security)](#level-3-otp-metaprogramming)
     - [Processes (Spawn, Links, Tasks, etc.)](#processes-spawn-links-tasks-etc)
     - [Supervisors](#supervisors)
     - [AST](#ast)
     - [Advanced testing](#advanced-testing)
-- [📚 Books](#-books)
+    - [Security](#security)
+- [📚 Other resources](#-other-resources)
 - [🏘️ Communities](#️-communities)
 
 # 🗨️ Intro
@@ -81,6 +82,15 @@ Anyone can contribute, add resources, links and update mermaid diagrams :) Feel 
 - [ElixirConf youtube channel](https://www.youtube.com/c/ElixirConf)
 - [Welcome to The Jungle Tech medium page](https://medium.com/wttj-tech)
 - [AppSignal's blog](https://blog.appsignal.com/)
+- [Programming Elixir 1.6](https://pragprog.com/titles/elixir16/programming-elixir-1-6/) by Dave Thomas
+- [Elixir in Action](https://www.manning.com/books/elixir-in-action-second-edition) by Saša Jurić
+- [Alchemist Camp](https://alchemist.camp/)
+- [Joy of Elixir](https://joyofelixir.com/toc.html)
+- [Elixir Newbie](https://www.elixirnewbie.com/blog)
+- [CodeCast’s Intro to Elixir](https://www.codecast.io/courses/58-intro-to-elixir)
+- [An Animated Introduction to Elixir](https://markm208.github.io/exbook/)
+- [ElixirWeekly](https://elixirweekly.net/)
+- [ElixirStatus](https://elixirstatus.com/)
 
 ### Why go for Elixir ?
 
@@ -146,16 +156,15 @@ Doc[Documentation and typespecs]
 
 - [Naming Conventions](https://hexdocs.pm/elixir/1.13.4/naming-conventions.html#content)
 - [The Elixir Style Guide](https://github.com/christopheradams/elixir_style_guide) (github)
-- [An opinionated Elixir Style Guide #2 by Kamil Lelonek](https://blog.lelonek.me/an-opinionated-elixir-style-guide-2-67899790563f)
 
 ### Basics (Getting started with Elixir)
 
 - **Basic types and operators:**
   - [Basic types](https://elixir-lang.org/getting-started/basic-types.html)
-  - [Basic operators](https://elixir-lang.org/getting-started/basic-operators.html)
+  - [Basic operators](https://hexdocs.pm/elixir/1.17.2/operators.html)
   - ["Basic Data Types" from Elixir School](https://elixirschool.com/en/lessons/basics/basics#basic-data-types-3)
 - **Imutability**:
-  - [Immutability in Elixir by Dario Ghilardi](https://darioghilardi.com/immutability-in-elixir/)
+  - [Understanding Elixir’s Immutability and Data Structures](https://clouddevs.com/elixir/immutability-and-data-structures/) by lago
 
 ### String and binaries
 
@@ -279,6 +288,8 @@ graph TD
 - [ExUnit](https://hexdocs.pm/ex_unit/1.13/ExUnit.html)
 - [Introduction to Testing Elixir Applications with ExUnit by Cody Boggs](https://semaphoreci.com/community/tutorials/introduction-to-testing-elixir-applications-with-exunit)
 - ["Testing" by Elixir School](https://elixirschool.com/en/lessons/testing/basics)
+- [Testing Elixir](https://pragprog.com/titles/lmelixir/testing-elixir/) by Andrea Leopardi and Jeffrey Matthias
+- [Property-Based Testing with PropEr, Erlang, and Elixir](https://pragprog.com/titles/fhproper/property-based-testing-with-proper-erlang-and-elixir/) by Fred Hebert
 
 ### Configuration and releases
 
@@ -292,16 +303,21 @@ graph TD
 
 - [Intro to OTP with Elixir](https://www.youtube.com/watch?v=CJT8wPnmjTM) (Video)
 - [A brief guide to OTP in Elixir](https://serokell.io/blog/elixir-otp-guide)
+- [Designing Elixir Systems with OTP](https://pragprog.com/titles/jgotp/designing-elixir-systems-with-otp/) by James Edward Gray, II and Bruce A. Tate
 
 ### Phoenix
 
 | => [Phoenix's official repository](https://github.com/phoenixframework/phoenix)
 
 - [Phoenix documentation](https://hexdocs.pm/phoenix/Phoenix.html)
-- [Anatomy of a Phoenix App](https://www.fullstacklabs.co/blog/anatomy-of-a-phoenix-app)
 - [Phoenix Contexts](https://hexdocs.pm/phoenix/contexts.html)
 - [Creating a chat App - ElixirBridge](https://elixirbridge.org/03_Intro_to_Phoenix/01-creating-a-chat-app.html) (Tutorial)
 - [Phoenix a Web Framework for the New Web](https://www.youtube.com/watch?v=bk3icU8iIto&t=2605s) (Video)
+- [Exploring Elixir and Phoenix: A Comprehensive Overview for Beginners](https://www.fullstack.com/labs/resources/blog/anatomy-of-a-phoenix-app) by FullStack Labs
+- [Phoenix in Action](https://www.manning.com/books/phoenix-in-action) by Geoffrey Lessel
+- [Real-Time Phoenix: Build Highly Scalable Systems With Channels](https://www.amazon.fr/Real-time-Phoenix-Scalable-Systems-Channels/dp/1680507192) by Stephen Bussey
+- [Programming Phoenix 1.4](https://pragprog.com/titles/phoenix14/programming-phoenix-1-4/) by Chris McCord, Bruce Tate, and José Valim
+- [Programming Phoenix LiveView](https://pragprog.com/titles/liveview/programming-phoenix-liveview/) by Bruce A. Tate and Sophie DeBenedetto
 
 ### Ecto
 
@@ -313,6 +329,7 @@ graph TD
 - [A brief guide to Ecto.Multi](https://elixirschool.com/blog/ecto-multi/)
 - [Ecto.Multi hexdoc](https://hexdocs.pm/ecto/Ecto.Multi.html)
 - [Dynamic queries](https://hexdocs.pm/ecto/dynamic-queries.html)
+- [Programming Ecto](https://pragprog.com/titles/wmecto/programming-ecto/) by Darin Wilson and Eric Meadows-Jönsson
 
 ## Level 3 (OTP, MetaProgramming)
 
@@ -370,19 +387,21 @@ graph TD
 
 - [Mocks and explicit contracts](https://dashbit.co/blog/mocks-and-explicit-contracts)
 
-# 📚 Books
+### Security
 
-- [Elixir in Action](https://www.manning.com/books/elixir-in-action-second-edition)
-- [Designing Elixir Systems with OTP](https://pragprog.com/titles/jgotp/designing-elixir-systems-with-otp/)
-- [Testing Elixir](https://pragprog.com/titles/lmelixir/testing-elixir/)
-- [Metaprogramming Elixir](https://pragprog.com/titles/cmelixir/metaprogramming-elixir/)
-- [Phoenix in Action](https://www.manning.com/books/phoenix-in-action)
-- [Programming Phoenix 1.4](https://pragprog.com/titles/phoenix14/programming-phoenix-1-4/)
+[Elixir Secure Coding Training (ESCT)](https://github.com/podium/elixir-secure-coding)
+
+# 📚 Other resources
+
+For deeper learning about related topics, consider these reads:
+
+- [Metaprogramming Elixir](https://pragprog.com/titles/cmelixir/metaprogramming-elixir/) by Chris McCord
+- [Craft GraphQL APIs in Elixir with Absinthe](https://pragprog.com/titles/wwgraphql/craft-graphql-apis-in-elixir-with-absinthe/) by Bruce Williams and Ben Wilson
+- [Concurrent Data Processing in Elixir: Fast, Resilient Applications with Otp, Genstage, Flow, and Broadway](https://www.libris.ro/concurrent-data-processing-in-elixir-fast-BRT9781680508192--p25289691.html?srsltid=AfmBOorvrzAOO3AC1ywWleind49cy9UH6UQYWY8lbucA_Fkc8L9BPVQG) by Svilen Gospodinov
 
 # 🏘️ Communities
 
 - [Elixir Forum](https://elixirforum.com/)
-- [Elixir Community Slack](https://elixir-slackin.herokuapp.com/)
+- [Elixir Community Slack](https://elixir-lang.slack.com/join/shared_invite/zt-216sp1w4g-MHgJlFeJKTBCzPejZj7_tw#/shared-invite/email)
 - [Elixir Community Discord](https://discord.com/invite/elixir)
 - [Elixir Programming LinkedIn Group](https://www.linkedin.com/groups/6530248/)
-
